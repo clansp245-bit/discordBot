@@ -406,4 +406,4 @@ client.on(Events.InteractionCreate, async (interaction) => {
 });
 
 process.on('unhandledRejection', (err) => console.error('Unhandled:', err));
-client.login("MTMxMDU2MjkyODM2OTM0MDQyNg.G4eAqg.UGmdCPEq6vYnk-XEp_v0HVmd6vCXQIAOU48xPw");
+client.login(process.env.TOKEN);
